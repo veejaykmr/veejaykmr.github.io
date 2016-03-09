@@ -10,7 +10,7 @@ The below java code snippet shows the usage of JMattr library
 		
         @Provider(
         	name = "sample.SimpleService",
-            version = "1.0",
+            version = \"1.0\",
             doc = @Doc(
             	shortDoc = "A short documentation about this Service",
                 longDoc = "A Long documentation about this service"
