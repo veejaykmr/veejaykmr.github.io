@@ -25,4 +25,11 @@ The below java code snippet shows the usage of JMattr library
             
             }
         }
+y
+The client code snippet is shown below  
+	
+	//Query the registry aboute the service
+	SimpleService impl1 = (SimpleService)registry.lookup("sample.SimpleService");
+	impl1.doSomethingMethod();
+	
 
