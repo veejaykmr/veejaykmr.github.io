@@ -9,8 +9,8 @@ meta attributes which can be queried by the program at runtime to create dynamic
 The below java code snippet shows the usage of JMattr library  
 		
         @Provider(
-        	value = "sample.SimpleService",
-                doc = "sample service documentation",
+        	value = "sample.SimpleService", 
+                doc = "sample service documentation",  
 	        meta = {
 	      	   @Meta(name = "some_attribute", value = "attribute_value1")
 	        }
@@ -27,7 +27,7 @@ The client code snippet is shown below
 	//The class path scanner which loads the annotated classes in the classpath
 	MetaScanner scanner = DefaultScannerFactory.getDefaultScanner();
 
-	//post scanning get the Registry from the scanner
+	//post scanning get the Registry from the scanner  
         Registry registry = scanner.getRegistry();
         
 	//Query the registry about the service
